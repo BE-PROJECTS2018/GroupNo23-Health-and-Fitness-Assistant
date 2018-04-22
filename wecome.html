@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+ <script language="JavaScript">
+<!--
+function calculateBmi() {
+var weight = document.bmiForm.weight.value
+var height = document.bmiForm.height.value
+if(weight > 0 && height > 0){   
+var finalBmi = weight/(height/100*height/100)
+document.bmiForm.bmi.value = finalBmi
+if(finalBmi < 18.5){
+document.bmiForm.meaning.value = "That you are too thin."
+}
+if(finalBmi > 18.5 && finalBmi < 25){
+document.bmiForm.meaning.value = "That you are healthy."
+}
+if(finalBmi > 25 && finalBmi < 29){
+document.bmiForm.meaning.value = "That you have overweight."}
+if(finalBmi > 29){
+document.bmiForm.meaning.value = "That you have OBESE."
+}
+}
+else{
+alert("Please Fill in everything correctly")
+}
+}
+//-->
+</script>
+
+<body style="background-color:#ffeecc; ">
+
+<div class="jumbotron">
+  <h1 ><center>  Welcome to Health and Fitness Assistant</center></h1>      
+  
+</div>
+
+<font color=" black"><H2 ><center> " Enter your details "</center></H2></font>
+<div class="row" style=" background-image:url(s.jpg); background-size: cover;min-height: 100%;       /* -color:#ffd480;">
+
+    <div class="col-md-6">
+
+      <div class="row">
+        <div class="col-md-6" >
+          <div class="row">
+            <div class="col-md-6">
+               <h4><p align="RIGHT"><font color="black"><b> AGE</b></font></P></h4>
+            </div>
+            <div class="col-md-6"><h4>
+                      <select>
+                           <option value="18">18</option>
+                            <option value="saab">Saab</option>
+                          <option value="mercedes">Mercedes</option>
+                           <option value="audi">Audi</option>
+                          </select></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6"><h4><p align="RIGHT"><font color="black"><b>GENDER</b></font></P></h4>
+            </div>
+            <div class="col-md-6"><h4><select>
+                                            <option value="male">male</option>
+                                            <option value="female">female</option>
+                                  </select></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6"><h4><p align="RIGHT"><font color="black"><b>CALCULATE BMI</b></font></p></h4>
+            </div>
+            <div class="col-md-6"><h4><form name="bmiForm">
+ <font color="black"><b>Weight(kg):</b> </font><input type="text" name="weight" size="10"><br /><br><font color="black"><b> Height(cm): </b></font><input type="text" name="height" size="10"><br /><br>
+<input type="button" value="Calculate BMI" onClick="calculateBmi()"><br /><br>
+<font color="black"><b>Your BMI:</b></font> <input type="text" name="bmi" size="10"><br /><br>
+<font color="black"><b>This Means: </b></font><input type="text" name="meaning" size="25"><br /><br>
+<input type="reset" value="Reset" />
+</form></h4><!--<select>
+                                            <option value="42">42</option>
+                                            <option value="female">female</option>
+                                  </select>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6"><h4><p align="RIGHT"><font color="black"><b>VEG / NON-VEG</b></font></p></h4>
+            </div>
+            <div class="col-md-6"><h4><select>
+                                            <option value="VEG">VEG</option>
+                                            <option value="NON-VEG">NON-VEG</option>
+                                  </select></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<font color=" black"><H2 ><center> " Enter your current diet  "</center></H2></font>
+<!--
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h2>
+          Enter your details.
+        </h2>
+        <p>
+          age
+        </p>
+        <p>
+          <a class="btn btn-primary btn-large" href="#">Learn more</a>
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">hdgkgksgsk
+            </div>
+            <div class="col-md-6">osjowpojwp
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script language="JavaScript">
+<!--
+function calculateBmi() {
+var weight = document.bmiForm.weight.value
+var height = document.bmiForm.height.value
+if(weight > 0 && height > 0){   
+var finalBmi = weight/(height/100*height/100)
+document.bmiForm.bmi.value = finalBmi
+if(finalBmi < 18.5){
+document.bmiForm.meaning.value = "That you are too thin."
+}
+if(finalBmi > 18.5 && finalBmi < 25){
+document.bmiForm.meaning.value = "That you are healthy."
+}
+if(finalBmi > 25 && finalBmi < 29){
+document.bmiForm.meaning.value = "That you have overweight."}
+if(finalBmi > 29){
+document.bmiForm.meaning.value = "That you have OBESE."
+}
+}
+else{
+alert("Please Fill in everything correctly")
+}
+}
+//-->
+</script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#lol" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Exercise</a>
+ 
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">My Current Infomation</div>
+  </div>
+</div>
+  
+  <div class="jumbotron">
+  <h1 ><center>  Welcome to Health and Fitness Assistant</center></h1>      
+  
+</div>
+
+<font color=" black" id="lol"><H2 ><center> " Personal details "</center></H2></font>
+<div class="row" style=" background-image:url(s.jpg); background-size: cover;min-height: 100%;       /* -color:#ffd480;">
+  
+    <div class="col-md-6" >
+
+      <div class="row">
+        <div class="col-md-6" >
+          <div class="row">
+            <div class="col-md-6">
+               <h4><p align="RIGHT"><font color="black"><b> AGE</b></font></P></h4>
+            </div>
+            <div class="col-md-6"><h4>
+                      <select>
+                           <option value="18">18</option>
+                            <option value="18">18</option>
+  <option value="19">19</option>
+  <option value="20">20</option>
+  <option value="21">21</option>
+  <option value="21">21</option>
+    <option value="21">21</option>
+  <option value="22">22</option>
+  <option value="23">23</option>
+  <option value="24">24</option>
+  <option value="25">25</option>
+  <option value="26">26</option>
+  <option value="27">27</option>
+  <option value="28">28</option>
+  <option value="29">29</option>
+  <option value="30">30</option>
+  <option value="31">31</option>
+  <option value="32">32</option>
+  <option value="33">33</option>
+  <option value="34">34</option>
+  <option value="35">35</option>
+  <option value="36">36</option>
+  <option value="37">37</option>
+  <option value="38">38</option>
+  <option value="39">39</option>
+  <option value="40">40</option>
+  <option value="41">41</option>
+  <option value="42">42</option>
+  <option value="43">43</option>
+  <option value="44">44</option>
+  <option value="45">45</option>
+  <option value="46">46</option>
+  <option value="47">47</option>
+  <option value="48">48</option>
+  <option value="49">49</option>
+  <option value="50">50</option>
+  <option value="51">51</option>
+  <option value="52">52</option>
+  <option value="53">53</option>
+  <option value="54">54</option>
+  <option value="55">55</option>
+  <option value="56">56</option>
+  <option value="57">57</option>
+  <option value="58">58</option>
+  <option value="59">59</option>
+  <option value="60">60</option>
+  <option value="61">61</option>
+  <option value="62">62</option>
+  <option value="63">63</option>
+  <option value="64">64</option>
+  <option value="65">65</option>
+  
+  
+                          </select></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6"><h4><p align="RIGHT"><font color="black"><b>GENDER</b></font></P></h4>
+            </div>
+            <div class="col-md-6"><h4><select>
+                                            <option value="male">male</option>
+                                            <option value="female">female</option>
+                                  </select></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6"><h4><p align="RIGHT"><font color="black"><b>CALCULATE BMI</b></font></p></h4>
+            </div>
+            <div class="col-md-6"><h4><form name="bmiForm">
+ <font color="black"><b>Weight(kg):</b> </font><input type="text" name="weight" size="10"><br /><br><font color="black"><b> Height(cm): </b></font><input type="text" name="height" size="10"><br /><br>
+<input type="button" value="Calculate BMI" onClick="calculateBmi()"><br /><br>
+<font color="black"><b>Your BMI:</b></font> <input type="text" name="bmi" size="10"><br /><br>
+<font color="black"><b>This Means: </b></font><input type="text" name="meaning" size="25"><br /><br>
+<input type="reset" value="Reset" />
+</form></h4><!--<select>
+                                            <option value="42">42</option>
+                                            <option value="female">female</option>
+                                  </select>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6"><h4><p align="RIGHT"><font color="black"><b>VEG / NON-VEG</b></font></p></h4>
+            </div>
+            <div class="col-md-6"><h4><select>
+                                            <option value="VEG">VEG</option>
+                                            <option value="NON-VEG">NON-VEG</option>
+                                  </select></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+<font color=" black"><H2 ><center> " Enter your current diet  "</center></H2></font>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+<div class="w3-col w3-red w3-container" style="width:20%"><img src="bread.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>Bread</h3>
+      <p>1 slice of brown bread = 73 calories<br>
+        1 slice of white bread =  53 calories <br>
+        <input type="checkbox" name="bread" value="bread">SELECT<br>
+        
+        </p></div>
+  <div class="w3-col w3-green w3-container" style="width:20%"><img src="cereals.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>CEREALS</h3>
+      <p>100 gmsof cornflakes = 373 calories<br>
+        100 gms of oatmael =  87 calories <br>
+        <input type="checkbox" name="cereals" value="cereals">SELECT<br></div>
+  <div class="w3-col w3-cyan w3-container" style="width:20%"><img src="fruit.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>FRUITS</h3>
+      <p>Best diet is the one that includes fruits<br>
+        <input type="checkbox" name="fruits" value="fruits">SELECT<br></div>
+<div class="w3-col w3-orange w3-container" style="width:20%"><img src="dry.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>DRY FRUITS</h3>
+      <p>Dry fruits play an important part in your diet<br>
+        <input type="checkbox" name="dryfruits" value="dryfruits">SELECT<br></div>
+  <div class="w3-col w3-yellow w3-container" style="width:20%"><img src="milk.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>MILK PRODUCTS</h3>
+      <p>Include milk products to improve bone health<br>
+        <input type="checkbox" name="milkproducts" value="milkproducts">SELECT<br></div>
+
+
+
+
+</div>
+
+  <!--
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Cherries, interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  -->
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+  <div class="w3-col w3-red w3-container" style="width:20%"><img src="tea.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>Tea</h3>
+      <p>1 tea cup includes 12mg of caffine<br>
+        sugar adds 49 calories  <br>
+        <input type="checkbox" name="tea" value="tea">SELECT<br>
+        
+        </p></div>
+  <div class="w3-col w3-green w3-container" style="width:20%"><img src="coffee.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>COFFEE</h3>
+      <p>1 coffee cup has 40mg of caffine<br>
+        sugar adds 49 calories <br>
+        <input type="checkbox" name="coffee" value="coffee">SELECT<br></div>
+  <div class="w3-col w3-cyan w3-container" style="width:20%"><img src="fries.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>FRIES</h3>
+      <p>100 gms of fries adds up to 16 gms of fats<br>
+        <input type="checkbox" name="fries" value="fries">SELECT<br></div>
+<div class="w3-col w3-orange w3-container" style="width:20%"><img src="chapati.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>CHAPATI</h3>
+      <p>1 chapati has 3.5 gm of proteins and 80 calories<br>
+        <input type="checkbox" name="chapati" value="chapati">SELECT<br></div>
+  <div class="w3-col w3-yellow w3-container" style="width:20%"><img src="rice.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>RICE</h3>
+      <p>1 chapati has 2.69 gm of proteins and 130 kcal energy<br>
+        <input type="checkbox" name="rice" value="rice">SELECT<br></div>
+
+
+
+
+</div>
+
+
+
+
+
+<!--3333333 walalal griddddddd-->s
+
+ <div class="w3-row-padding w3-padding-16 w3-center">
+  <div class="w3-col w3-red w3-container" style="width:20%"><img src="leaf.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>LEAFY VEGETABLES</h3>
+      <p>Leafy vegetables can be included in every meal
+        <br>
+        <input type="checkbox" name="leaf" value="leaf">SELECT<br>
+        
+        </p></div>
+  <div class="w3-col w3-green w3-container" style="width:20%"><img src="fish.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>FISH</h3>
+      <p>Fish is a healthy food that has a rightful place in a well-kept diet. <br>
+        <input type="checkbox" name="fish" value="fish">SELECT<br></div>
+  <div class="w3-col w3-cyan w3-container" style="width:20%"><img src="egg.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>EGGS</h3>
+      <p>Eggs are among the most nutritious foods on the planet<br>
+        <input type="checkbox" name="eggs" value="eggs">SELECT<br></div>
+<div class="w3-col w3-orange w3-container" style="width:20%"><img src="chicken.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>CHICKEN</h3>
+      <p>Chicken has always been a fitness and bodybuilding dietary staple<br>
+        <input type="checkbox" name="chicken" value="chicken">SELECT<br></div>
+  <div class="w3-col w3-yellow w3-container" style="width:20%"><img src="soup.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>SOUP</h3>
+      <p>Nothing beats a warming bowl of soup on a cold winters day<br>
+        <input type="checkbox" name="soup" value="soup">SELECT<br></div>
+
+
+
+
+</div>
+
+
+<!--4th grid hai ye .....soo mut 5am ho gya hai-->
+
+
+
+<div class="w3-row-padding w3-padding-16 w3-center">
+  <div class="w3-col w3-red w3-container" style="width:50%"><img src="bandp.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>BEANS & PULSES</h3>
+      <p>They are a cheap, low-fat source of protein,fibres
+        <br>
+        <input type="checkbox" name="bandp" value="bandp">SELECT<br>
+        
+        </p></div>
+  
+  <div class="w3-col w3-cyan w3-container" style="width:50%"><img src="desert.jpg" alt="Sandwich" style="width:100%" height="250px">
+      <h3>DESERTS</h3>
+      <p>Desertd we eat are high in fats and sugar<br>
+        <input type="checkbox" name="desert" value="desert">SELECT<br></div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="w3-quarter">
+      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+-->
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
